@@ -5,9 +5,24 @@ This template is ideal for developers who want a clean and elegant way to showca
 
 ---
 
-## 📸 Demo
+## 🖼 Preview
 
-> Add your live demo link here (e.g. Netlify, Vercel, GitHub Pages)
+### 💻 Web (Desktop)
+
+![Web 1](public/web_1.png)
+![Web 2](public/web_2.png)
+![Web 3](public/web_3.png)
+![Web 4](public/web_4.png)
+
+---
+
+### 📱 Mobile
+
+![Mobile 1](public/mobile_1.png)
+![Mobile 2](public/mobile_2.png)
+![Mobile 3](public/mobile_3.png)
+![Mobile 4](public/mobile_4.png)
+![Mobile 5](public/mobile_5.png)
 
 ---
 
@@ -101,7 +116,7 @@ Includes the section links and the language switch button (desktop + mobile).
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/react-portfolio-template.git
+git clone https://github.com/MikeDiaz-Pro/react-portfolio-template.git
 cd react-portfolio-template
 ```
 
