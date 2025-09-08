@@ -23,7 +23,7 @@ export default function Navbar() {
             duration={300}
             offset={-80}
           >
-            Home
+            {lang === "en" ? 'Home' : 'Inicio'}
           </ScrollLink>
           <ScrollLink
             className="cursor-pointer hover:text-blue-400 transition-colors duration-200"
@@ -32,7 +32,7 @@ export default function Navbar() {
             duration={300}
             offset={-80}
           >
-            About
+            {lang === "en" ? 'About' : 'Sobre Mí'}
           </ScrollLink>
           <ScrollLink
             className="cursor-pointer hover:text-blue-400 transition-colors duration-200"
@@ -41,7 +41,7 @@ export default function Navbar() {
             duration={300}
             offset={-80}
           >
-            Resume
+            {lang === "en" ? 'Skills' : 'Habilidades'} 
           </ScrollLink>
           <ScrollLink
             className="cursor-pointer hover:text-blue-400 transition-colors duration-200"
@@ -50,7 +50,8 @@ export default function Navbar() {
             duration={300}
             offset={-80}
           >
-            Portfolio
+            {lang === "en" ? 'Portfolio' : 'Portafolio'}            
+
           </ScrollLink>
 
           {/* Botón de idioma desktop */}
@@ -83,7 +84,7 @@ export default function Navbar() {
             onClick={() => setIsOpen(false)}
             className="block py-2 text-base font-medium cursor-pointer hover:text-blue-400 transition-colors"
           >
-            Home
+            {lang === "en" ? 'Home' : 'Inicio'}
           </ScrollLink>
           <ScrollLink
             to="about"
@@ -93,7 +94,7 @@ export default function Navbar() {
             onClick={() => setIsOpen(false)}
             className="block py-2 text-base font-medium cursor-pointer hover:text-blue-400 transition-colors"
           >
-            About
+            {lang === "en" ? 'About' : 'Sobre Mí'}
           </ScrollLink>
           <ScrollLink
             to="resume"
@@ -103,7 +104,7 @@ export default function Navbar() {
             onClick={() => setIsOpen(false)}
             className="block py-2 text-base font-medium cursor-pointer hover:text-blue-400 transition-colors"
           >
-            Resume
+            {lang === "en" ? 'Skills' : 'Habilidades'}
           </ScrollLink>
           <ScrollLink
             to="portfolio"
@@ -113,7 +114,8 @@ export default function Navbar() {
             onClick={() => setIsOpen(false)}
             className="block py-2 text-base font-medium cursor-pointer hover:text-blue-400 transition-colors"
           >
-            Portfolio
+            {lang === "en" ? 'Portfolio' : 'Portafolio'}            
+
           </ScrollLink>
 
           {/* Botón de idioma móvil */}
